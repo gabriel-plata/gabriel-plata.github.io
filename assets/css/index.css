@@ -21,10 +21,6 @@ h1 {
     color: white;
 }
 
-h3:hover {
-    color: red;
-}
-
 a:link {
     color: black;
     text-decoration: none;
@@ -111,54 +107,10 @@ a:link {
     margin: 0px;
 }
 
-#item-1-conteudo {
+#linha {
+    height: 10px;
     margin-top: 10px;
-    padding-top: 32px;
-    padding-bottom: 0px;
-}
-
-#item-2-conteudo {
-    padding-top: 25px;
-}
-
-#item-3-conteudo {
-    padding-top: 18px;
-}
-
-#item-4-conteudo {
-    padding-top: 11px;
-}
-
-#item-5-conteudo {
-    padding-top: 4px;
-}
-
-#item-6-conteudo {
-    margin-top: -10px;
-    padding-top: 9px;
-}
-
-#item-7-conteudo {
-    margin-top: -10px;
-    padding-top: 16px;
-}
-
-#item-8-conteudo {
-    margin-top: -10px;
-    padding-top: 22px;
-}
-
-#item-9-conteudo {
-    margin-top: -10px;
-    padding-top: 26px;
-}
-
-#item-10-conteudo {
-    padding-top: 16px;
-}
-
-#item-11-conteudo {
-    padding-top: 9px;
+    margin-bottom: 0px;
 }
 
 #icone-footer {
@@ -175,42 +127,103 @@ a:link {
     margin: 0px;
 }
 
-.area-item-menu {
-    height: 60px;
+.area-item-menu:hover {
+    color: red;
+    background-color: rgba(0, 0, 255, 0.212);
+}
+
+#area-item-menu-1 {
+    position: relative;
+    top: 0px;
+    left: 0px;
     width: 272px;
+    height: 35px;
 }
 
 #icone-item-menu-1 {
     padding-left: 29px;
-    padding-top: 33px;
+    padding-top: 5px;
+    margin-right: 15px;
     height: 25px;
     width: 25px;
     border-radius: 25%;
     float: left;
 }
 
+#item-1-conteudo {
+    font-family: 'Segoe UI';
+    color: white;
+    left: 35px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+#area-item-menu-2 {
+    position: relative;
+    top: 16px;
+    left: 0px;
+    width: 272px;
+    height: 36px;
+}
+
 #icone-item-menu-2 {
     padding-left: 30px;
-    padding-top: 25px;
+    padding-top: 5px;
     height: 25px;
     width: 25px;
     float: left;
+}
+
+#item-2-conteudo {
+    padding-top: 5px;
+}
+
+#area-item-menu-3 {
+    position: relative;
+    top: 32px;
+    left: 0px;
+    width: 272px;
+    height: 36px;
 }
 
 #icone-item-menu-3 {
     padding-left: 30px;
-    padding-top: 18px;
+    padding-top: 7px;
     height: 25px;
     width: 25px;
     float: left;
 }
 
+#item-3-conteudo {
+    padding-top: 5px;
+}
+
+#area-item-menu-4 {
+    position: relative;
+    top: 48px;
+    left: 0px;
+    width: 272px;
+    height: 36px;
+}
+
 #icone-item-menu-4 {
     padding-left: 30px;
-    padding-top: 10px;
+    padding-top: 6px;
     height: 25px;
     width: 25px;
     float: left;
+}
+
+#item-4-conteudo {
+    padding-top: 5px;
+}
+
+#area-item-menu-5 {
+    position: relative;
+    top: 68px;
+    left: 0px;
+    width: 272px;
+    height: 36px;
 }
 
 #icone-item-menu-5 {
@@ -221,52 +234,128 @@ a:link {
     float: left;
 }
 
+#item-5-conteudo {
+    padding-top: 5px;
+}
+
+#area-item-menu-6 {
+    position: relative;
+    top: 88px;
+    left: 0px;
+    width: 272px;
+    height: 36px;
+}
+
 #icone-item-menu-6 {
     padding-left: 30px;
-    padding-top: 12px;
+    padding-top: 6px;
     height: 25px;
     width: 25px;
     float: left;
 }
 
+#item-6-conteudo {
+    padding-top: 5px;
+}
+
+#area-item-menu-7 {
+    position: relative;
+    top: 108px;
+    left: 0px;
+    width: 272px;
+    height: 36px;
+}
+
 #icone-item-menu-7 {
     padding-left: 26px;
-    padding-top: 14px;
+    padding-top: 2px;
     height: 32px;
     width: 32px;
     float: left;
 }
 
+#item-7-conteudo {
+    padding-top: 5px;
+}
+
+#area-item-menu-8 {
+    position: relative;
+    top: 128px;
+    left: 0px;
+    width: 272px;
+    height: 36px;
+}
+
 #icone-item-menu-8 {
     padding-left: 30px;
-    padding-top: 24px;
+    padding-top: 6px;
     height: 25px;
     width: 25px;
     float: left;
 }
 
+#item-8-conteudo {
+    padding-top: 5px;
+}
+
+#area-item-menu-9 {
+    position: relative;
+    top: 144px;
+    left: 0px;
+    width: 272px;
+    height: 36px;
+}
+
 #icone-item-menu-9 {
     padding-left: 27px;
-    padding-top: 23px;
+    padding-top: 4px;
     height: 30px;
     width: 30px;
     float: left;
 }
 
+#item-9-conteudo {
+    padding-top: 5px;
+}
+
+#area-item-menu-10 {
+    position: relative;
+    top: 160px;
+    left: 0px;
+    width: 272px;
+    height: 36px;
+}
+
 #icone-item-menu-10 {
     padding-left: 27px;
-    padding-top: 14px;
+    padding-top: 3px;
     height: 29px;
     width: 29px;
     float: left;
 }
 
+#item-10-conteudo {
+    padding-top: 5px;
+}
+
+#area-item-menu-11 {
+    position: relative;
+    top: 176px;
+    left: 0px;
+    width: 272px;
+    height: 36px;
+}
+
 #icone-item-menu-11 {
     padding-left: 27px;
-    padding-top: 7px;
+    padding-top: 3px;
     height: 29px;
     width: 29px;
     float: left;
+}
+
+#item-11-conteudo {
+    padding-top: 5px;
 }
 
 .conteudo-1 {
