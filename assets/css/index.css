@@ -105,6 +105,7 @@ a:link {
     padding-left: 70px;
     color: rgb(255, 255, 255);
     margin: 0px;
+    padding-top: 5px;
 }
 
 #linha {
@@ -174,10 +175,6 @@ a:link {
     float: left;
 }
 
-#item-2-conteudo {
-    padding-top: 5px;
-}
-
 #area-item-menu-3 {
     position: relative;
     top: 31px;
@@ -192,10 +189,6 @@ a:link {
     height: 25px;
     width: 25px;
     float: left;
-}
-
-#item-3-conteudo {
-    padding-top: 5px;
 }
 
 #area-item-menu-4 {
@@ -214,10 +207,6 @@ a:link {
     float: left;
 }
 
-#item-4-conteudo {
-    padding-top: 5px;
-}
-
 #area-item-menu-5 {
     position: relative;
     top: 67px;
@@ -232,10 +221,6 @@ a:link {
     height: 20px;
     width: 20px;
     float: left;
-}
-
-#item-5-conteudo {
-    padding-top: 5px;
 }
 
 #area-item-menu-6 {
@@ -254,10 +239,6 @@ a:link {
     float: left;
 }
 
-#item-6-conteudo {
-    padding-top: 5px;
-}
-
 #area-item-menu-7 {
     position: relative;
     top: 107px;
@@ -272,10 +253,6 @@ a:link {
     height: 32px;
     width: 32px;
     float: left;
-}
-
-#item-7-conteudo {
-    padding-top: 5px;
 }
 
 #area-item-menu-8 {
@@ -294,10 +271,6 @@ a:link {
     float: left;
 }
 
-#item-8-conteudo {
-    padding-top: 5px;
-}
-
 #area-item-menu-9 {
     position: relative;
     top: 143px;
@@ -312,10 +285,6 @@ a:link {
     height: 30px;
     width: 30px;
     float: left;
-}
-
-#item-9-conteudo {
-    padding-top: 5px;
 }
 
 #area-item-menu-10 {
@@ -334,10 +303,6 @@ a:link {
     float: left;
 }
 
-#item-10-conteudo {
-    padding-top: 5px;
-}
-
 #area-item-menu-11 {
     position: relative;
     top: 175px;
@@ -352,10 +317,6 @@ a:link {
     height: 29px;
     width: 29px;
     float: left;
-}
-
-#item-11-conteudo {
-    padding-top: 5px;
 }
 
 .conteudo-1 {
