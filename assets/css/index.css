@@ -54,8 +54,8 @@ a:link {
 
 .area-conteudo {
     width: 100%;
-    height: 100%;
-    background-color: rgb(165, 166, 203);
+    height: 600px;
+    background-image: url("https://github.com/gabriel-plata/gabriel-plata.github.io/raw/master/assets/images/fundo-conteudo.jpg");
     margin: 0px;
 }
 
