@@ -54,7 +54,7 @@ a:link {
 
 .area-conteudo {
     width: 100%;
-    height: 600px;
+    height: 620px;
     background-image: url("https://github.com/gabriel-plata/gabriel-plata.github.io/raw/master/assets/images/fundo-conteudo-3.jpg");
     margin: 0px;
     background-size: cover;
@@ -101,14 +101,60 @@ a:link {
 }
 
 .item-conteudo {
-    font-family: Verdana;
+    font-family: 'Segoe UI';
+    padding-left: 70px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
 }
 
 #item-1-conteudo {
-    margin-top: 0px;
-    padding-left: 120px;
-    padding-top: 50px;
-    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding-top: 32px;
+    padding-bottom: 0px;
+}
+
+#item-2-conteudo {
+    padding-top: 25px;
+}
+
+#item-3-conteudo {
+    padding-top: 18px;
+}
+
+#item-4-conteudo {
+    padding-top: 11px;
+}
+
+#item-5-conteudo {
+    padding-top: 4px;
+}
+
+#item-6-conteudo {
+    margin-top: -10px;
+    padding-top: 9px;
+}
+
+#item-7-conteudo {
+    margin-top: -10px;
+    padding-top: 16px;
+}
+
+#item-8-conteudo {
+    margin-top: -10px;
+    padding-top: 22px;
+}
+
+#item-9-conteudo {
+    margin-top: -10px;
+    padding-top: 26px;
+}
+
+#item-10-conteudo {
+    padding-top: 16px;
+}
+
+#item-11-conteudo {
+    padding-top: 9px;
 }
 
 #icone-footer {
@@ -123,4 +169,27 @@ a:link {
 
 #nome-footer {
     margin: 0px;
+}
+
+.area-item-menu {
+    height: 60px;
+    width: 272px;
+}
+
+#icone-item-menu-1 {
+    padding-left: 29px;
+    padding-top: 33px;
+    height: 25px;
+    width: 25px;
+    border-radius: 25%;
+    float: left;
+}
+
+#icone-item-menu-2 {
+    padding-left: 29px;
+    padding-top: 25px;
+    height: 25px;
+    width: 25px;
+    border-radius: 40%;
+    float: left;
 }
