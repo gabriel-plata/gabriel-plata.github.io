@@ -9,7 +9,7 @@ const shadowTextItemHomeHover = $("#shadows-item-home-hover").css("text-shadow")
 const shadowBoxItemMenu = $('.area-item-menu').css("box-shadow");
 const shadowBoxItemMenuHover = $("#shadows-item-menu-hover").css("box-shadow");
 const bgColorItemMenu = $('.area-item-menu').css("background-color");
-const bgColorItemMenuHover = $('').css("background-color");
+const bgColorItemMenuHover = $("#shadows-item-menu-hover").css("background-color");
 
 
 handlersMenu(conteudo,itemConteudo);
