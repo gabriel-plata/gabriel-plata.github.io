@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#shadows-item-home-hover{
+    text-shadow: 2px 2px 4px gold, 3px 3px 4px white, 4px 4px 4px gold;
+    box-shadow: 0 0 15px 5px white;
+    display: none;
+}
+
+#shadows-item-menu-hover{
+    box-shadow: 0 0 20px 10px red;
+    background-color: rgba(0, 0, 0, 0.755);
+    display: none;
+}
+
+.body-conteudo {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+#conteudo-projetos{
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#home-vertical-session-1 {
+    height: 360px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 25px 5px black, 0 0 25px 10px green;
+    display: flex;
+    flex-direction: column;
+}
+
+#home-menu-opcao-1{
+    margin-top: 20px;
+}
+
+#home-vertical-session-2 {
+    height: 100%;
+    flex:auto;
+    background-color: transparent;
+    background-image: url("../images/gaivotas.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4;
+}
+
+#home-vertical-session-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 360px;
+    width: 200px;
+    background-image: url("../images/sol.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: top;
+    background-size: 200px;
+}
+
+.home-item-menu{
+    flex: 1;
+    text-align: center;
+}
+
+.home-item-menu-text{
+    font-style: bold;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 2px 2px 4px green, 3px 3px 4px white, 4px 4px 4px green;
+    box-shadow: 0 10px 15px 1px black;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.projetos-horizontal-session{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.projeto-area {
+    flex: 1;
+    height: 100px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    box-shadow: 0 0 5px 5px black;
+    border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projeto-header {
+    height: 75px;
+    
+}
+
+.projeto-footer{
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.cabecalho-conteudo {
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    width: 350px;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 100px;
+    font-style: bold;
+    color: black;
+    font-family: 'Frijole', cursive;
+    text-shadow: 3px 3px 1px red;
+}
+
+h2 {
+    line-height: 100px;
+    text-align: center;
+    font-style: bold;
+    font-family: 'Shojumaru', cursive;
+    color: black;
+    text-shadow: green 2px 2px 4px;
+    box-shadow: 0 0 25px 5px black, 0 0 25px 10px green;
+    border-radius: 50px;
+}
+
+h3 {
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-style: bold;
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: red 2px 2px 4px;
+}
+
+h5 {
+    width: 100%;
+    text-align: left;
+    line-height: 25px;
+    vertical-align: middle;
+    color: black;
+    text-shadow: red 2px 2px 4px;
+    font-family: 'Limelight', cursive;
+}
+#copyright {
+    height: 25px;
+    line-height: 25px;
+    text-align: right;
+    vertical-align: middle;
+    font-style: bold;
+    font-size: 20px;
+    font-family: 'Limelight', cursive;
+    color: black;
+    text-shadow: red 2px 2px 4px;
+    
+}
+
+.area-item-menu {
+    background-color: rgba(0, 0, 0, 0.541);
+    margin-right: 15px;
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px black;
+}
+
+#secao2-cabecalho {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    margin-right: 50px;
+}
+
+#secao2-1-cabecalho {
+    flex: auto;
+}
+
+#secao2-2-cabecalho {
+    height: 30px;
+    display: flex;
+}
+
+.area-menu-item-hover {
+    background-color: #8fcbff;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#cabecalho {
+    height: 100px;
+    /*background-color: #2eb2ff;*/
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(180deg,#3450f9,#ec4193,#2ed4ff)
+}
+
+
+#foto-perfil {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 25px;
+    box-shadow: 0 0 5px 5px black, 0 0 20px 15px green, 0 0 35px 30px black;
+}
+
+#area-nome {
+    height: 100px;
+    width: 250px;
+}
+
+#area-foto-perfil {
+    /*background-color: transparent;
+    background-image: url("../images/moldura-foto-2.jpg");*/
+    height: 100px;
+    width: 75px;
+    /*opacity: 0.3;*/
+}
+
+#area-menu {
+    flex: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#conteudo {
+    background-color: transparent;
+    height: 500px;
+    background-image: linear-gradient(180deg,#2ed4ff,#fa3341,#eb7642,#3450f9);
+}
+
+#rodape {
+    background-color: transparent;
+    background-image: linear-gradient(180deg,#3450f9,black);
+    height: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#home {
+    display: block;
+}
+
+#projetos {
+    display: none;
+}
+
+#certificados {
+    display: none;
+}
+
+#curriculo {
+    display: none;
+}
+
+#contato {
+    display: none;
+}
+
+#rodape-section-2 {
+    width: 170px;
+    height: 25px;
+}
+
+#rodape-section-1 {
+    flex: auto;
+    height: 25px;
+}
