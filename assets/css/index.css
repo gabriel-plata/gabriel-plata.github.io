@@ -9,18 +9,6 @@
     padding: 0px;
 }
 
-#shadows-item-home-hover{
-    text-shadow: 2px 2px 4px gold, 3px 3px 4px white, 4px 4px 4px gold;
-    box-shadow: 0 0 15px 5px white;
-    display: none;
-}
-
-#shadows-item-menu-hover{
-    box-shadow: 0 0 20px 10px red;
-    background-color: rgba(0, 0, 0, 0.755);
-    display: none;
-}
-
 .body-conteudo {
     height: 400px;
     display: flex;
@@ -63,6 +51,10 @@
     opacity: 0.4;
 }
 
+.home-conteudos {
+    display: none;
+}
+
 #home-vertical-session-3 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -85,11 +77,16 @@
     font-style: bold;
     color: black;
     font-family: 'Kaushan Script', cursive;
-    text-shadow: 2px 2px 4px green, 3px 3px 4px white, 4px 4px 4px green;
+    text-shadow: 1px 1px 3px green, 2px 2px 3px white, 3px 3px 3px green;
     box-shadow: 0 10px 15px 1px black;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 5px;
+}
+
+.home-item-menu-text:hover{
+    text-shadow: 1px 1px 3px gold, 2px 2px 3px white, 3px 3px 3px gold;
+    box-shadow: 0 0 15px 5px white;
 }
 
 .projetos-horizontal-session{
@@ -194,6 +191,11 @@ h5 {
     box-shadow: 0 0 10px 5px black;
 }
 
+.area-item-menu:hover{
+    box-shadow: 0 0 20px 10px red;
+    background-color: rgba(0, 0, 0, 0.755);
+}
+
 #secao2-cabecalho {
     display: flex;
     flex-direction: column;
@@ -220,7 +222,6 @@ h5 {
 
 #cabecalho {
     height: 100px;
-    /*background-color: #2eb2ff;*/
     background-color: transparent;
     display: flex;
     flex-direction: row;
@@ -243,11 +244,8 @@ h5 {
 }
 
 #area-foto-perfil {
-    /*background-color: transparent;
-    background-image: url("../images/moldura-foto-2.jpg");*/
     height: 100px;
     width: 75px;
-    /*opacity: 0.3;*/
 }
 
 #area-menu {
@@ -298,4 +296,8 @@ h5 {
 #rodape-section-1 {
     flex: auto;
     height: 25px;
+}
+
+#home-conteudo-opcao-1 {
+    display: block;
 }
